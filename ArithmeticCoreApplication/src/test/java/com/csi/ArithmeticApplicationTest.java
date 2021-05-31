@@ -19,4 +19,18 @@ public class ArithmeticApplicationTest {
 		Assert.assertEquals(10, a1.sub(20, 10));
 
 	}
+	
+	@Test
+	public void mulTest() {
+
+		Assert.assertEquals(200, a1.mul(20, 10));
+
+	}
+	
+	@Test
+	public void divTest() {
+
+		Assert.assertEquals(2, a1.div(20, 10));
+
+	}
 }

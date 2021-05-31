@@ -6,6 +6,9 @@ public class ArithmeticApplication {
 		System.out.println("\n Addition Result: " + add(4, 5));
 		System.out.println("\n Substraction Result: " + sub(20, 10));
 
+		System.out.println(mul(20, 10));
+		
+		System.out.println(div(20, 10));
 	}
 
 	public static int add(int n1, int n2) {
