@@ -23,7 +23,7 @@ public class ArithmeticApplicationTest {
 	@Test
 	public void mulTest() {
 
-		Assert.assertEquals(200, a1.mul(20, 10));
+		Assert.assertEquals(100, a1.mul(10, 10));
 
 	}
 	
